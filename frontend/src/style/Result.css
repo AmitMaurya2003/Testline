@@ -1,0 +1,41 @@
+.result-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.result-show {
+    /* width: 40%; */
+    min-height: 200px;
+    border-radius: 5px;
+    filter: drop-shadow(var(--drop-shadow-lg));
+    border: 2px solid black;
+    text-align: center;
+    overflow: hidden; 
+}
+
+.result-correct {
+    font-size: large;
+    padding: 1rem;
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+.result-btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem; 
+    margin: 1rem;
+}
+
+.result-btn {
+    border: 2px solid orange;
+    padding: 1rem;
+    font-size: large;
+    border-radius: 5px; 
+}
+.result-btn:hover {
+    cursor: pointer;
+}
