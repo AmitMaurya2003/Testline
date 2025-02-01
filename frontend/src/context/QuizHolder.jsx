@@ -12,7 +12,7 @@ export default function QuizHolder(porps) {
     const [correct, setCorrect] = useState(0);
     const [timeLeft, setTimeLeft] = useState(900); // 15 minutes in seconds
   
-  const URL = "http://localhost:8080";
+  const URL = "https://testline-backend-5jf4.onrender.com";
 
   const fectchData = async (url) => {
     try {
